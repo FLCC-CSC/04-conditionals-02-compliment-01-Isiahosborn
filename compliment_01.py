@@ -9,10 +9,11 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-def main():
-    reply = input().strip()
 
-    if reply in ("yes", "y"):
+def main():
+    reply = input().strip()  # no prompt text
+
+    if reply.lower() in ("yes", "y"):
         print("You have wonderful eyes.")
     else:
         print("No compliment for you!")
@@ -21,6 +22,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
