@@ -10,9 +10,10 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 def main():
-    reply = input().strip()   # no prompt text
+    reply = input().strip()  # no prompt text
 
-    if reply == "yes":        # only lowercase 'yes' counts
+    # Accept yes/Yes/y/Y as positive responses
+    if reply.lower() in ["yes", "y"]:
         print("You have wonderful eyes.")
     else:
         print("No compliment for you!")
