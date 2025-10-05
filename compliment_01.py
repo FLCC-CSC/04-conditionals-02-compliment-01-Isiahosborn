@@ -13,8 +13,7 @@
 def main():
     reply = input().strip()  # no prompt text
 
-    # Accept yes/Yes/y/Y as positive responses
-    if reply.lower() in ("yes", "y"):
+    if reply == "yes" or reply == "y":
         print("You have wonderful eyes.")
     else:
         print("No compliment for you!")
