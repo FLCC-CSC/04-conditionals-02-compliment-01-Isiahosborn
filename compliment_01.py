@@ -10,9 +10,13 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 def main():
-    reply = input("Would you like a compliment? ") 
-    if reply == "yes":
+    reply = input().strip()   # no prompt text
+
+    if reply == "yes":        # only lowercase 'yes' counts
         print("You have wonderful eyes.")
+    else:
+        print("No compliment for you!")
+
     print("Thank you for playing.")
 
 if __name__ == "__main__":
