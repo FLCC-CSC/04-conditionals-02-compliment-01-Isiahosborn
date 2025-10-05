@@ -11,9 +11,10 @@
 
 
 def main():
-    reply = input().strip()  
+    reply = input().strip()  # no prompt text
 
-    if reply == "yes":       
+    # Accept yes/Yes/y/Y as positive responses
+    if reply.lower() in ("yes", "y"):
         print("You have wonderful eyes.")
     else:
         print("No compliment for you!")
@@ -22,6 +23,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
