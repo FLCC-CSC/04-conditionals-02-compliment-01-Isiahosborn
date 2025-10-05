@@ -10,18 +10,10 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 
-def main():
-    reply = input().strip()  # no prompt text
-
-    if reply == "yes" or reply == "y":
-        print("You have wonderful eyes.")
-    else:
-        print("No compliment for you!")
-
-    print("Thank you for playing.")
-
-if __name__ == "__main__":
-    main()
+response = input("Would you like a compliment? ")
+if response == "yes":
+    print("You have wonderful eyes.")
+print("Thank you for playing.")
 
 
 
