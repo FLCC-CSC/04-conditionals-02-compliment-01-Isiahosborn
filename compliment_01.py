@@ -10,7 +10,7 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 def main():
-    reply = input("Would you like a compliment? ")  # Prompt for humans
+    reply = input("Would you like a compliment? ") 
     if reply == "yes":
         print("You have wonderful eyes.")
     print("Thank you for playing.")
