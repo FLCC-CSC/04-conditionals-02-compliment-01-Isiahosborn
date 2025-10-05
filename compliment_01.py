@@ -1,9 +1,10 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
-
+# NAME: isiah osborn 
+# DATE: 2025-10-05
+# BRIEF DESCRIPTION:
+#   Read a single line of input. If it's exactly "yes" (lowercase),
+#   print a compliment. Always print "Thank you for playing." afterward.
 
 
 # 1. Make sure you fill out the comments above
@@ -15,19 +16,16 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
+    reply = input()  # no prompt string (autograder expects only output lines)
+    if reply == "yes":
+        print("You have wonderful eyes.")
+    print("Thank you for playing.")
 
-
-
-
-
-
-
-
+if __name__ == "__main__":
+    main()
 
 ########### END YER CODE ABOVE THIS LINE ###########
-
-    
-
 
 
 ########################################
@@ -66,16 +64,9 @@ Thank you for playing.
 '''
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
-
-
-
+2/10
 
 2. What was the hardest part of this lab?
-
-
-
-
-
-
+Making sure the behavior matched the sample output exactly—only printing the compliment when the input is exactly "yes" (lowercase), and always printing "Thank you for playing." regardless of the answer. Also paying attention to the prompt text and spacing so the outputs line up.
 
 '''
