@@ -17,7 +17,7 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 def main():
-    reply = input()  # no prompt string (autograder expects only output lines)
+    reply = input("Would you like a compliment? ")  # Prompt added to match sample output
     if reply == "yes":
         print("You have wonderful eyes.")
     print("Thank you for playing.")
