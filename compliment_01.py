@@ -12,6 +12,7 @@
 response = input()
 if response == "yes":
     print("You have wonderful eyes.")
+    print("Thank you for playing.")
 else:
     print("Thank you for playing.")
 
