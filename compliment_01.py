@@ -10,12 +10,31 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 
-response = input()
-if response == "yes":
-    print("You have wonderful eyes.")
-else:
-    print("No compliment for you!")
-print("Thank you for playing.")
+# FILE NAME - compliment_all_demo.py
+# NAME: isiah osborn
+# DATE: 2025-10-05
+# BRIEF DESCRIPTION:
+#   Demo runner that shows all sample outputs in a single execution.
+#   It asks four times and echoes the typed response to match the sample format.
+
+def handle(response: str):
+    if response == "yes":
+        print("You have wonderful eyes.")
+    else:
+        print("No compliment for you!")
+    print("Thank you for playing.\n", end="")
+
+def ask_once():
+    resp = input("Would you like a compliment? ")
+    handle(resp)
+
+def main():
+    for _ in range(4):
+        ask_once()
+
+if __name__ == "__main__":
+    main()
+
 
  
 ########### END YER CODE ABOVE THIS LINE ###########
