@@ -13,8 +13,7 @@ response = input()
 if response == "yes":
     print("You have wonderful eyes.")
 else:
-    print("No compliment for you!")
-print("Thank you for playing.")
+    print("Thank you for playing.")
 
  
 ########### END YER CODE ABOVE THIS LINE ###########
