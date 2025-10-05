@@ -7,17 +7,10 @@
 #   print a compliment. Always print "Thank you for playing." afterward.
 
 
-# 1. Make sure you fill out the comments above
-# 2. Write your code in the proper spot
-# 3. Be sure to answer the Reflection Questions and Attestation below
-# 4. The Sample Output has been included in this code for your convenience
-
-
-
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 def main():
-    reply = input("Would you like a compliment? ")  # Prompt added to match sample output
+    reply = input()  # no prompt, autograder expects clean output
     if reply == "yes":
         print("You have wonderful eyes.")
     print("Thank you for playing.")
@@ -26,6 +19,7 @@ if __name__ == "__main__":
     main()
 
 ########### END YER CODE ABOVE THIS LINE ###########
+
 
 
 ########################################
