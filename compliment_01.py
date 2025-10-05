@@ -10,7 +10,7 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 def main():
-    reply = input()  # no prompt, autograder expects clean output
+    reply = input("Would you like a compliment? ")  # Prompt for humans
     if reply == "yes":
         print("You have wonderful eyes.")
     print("Thank you for playing.")
