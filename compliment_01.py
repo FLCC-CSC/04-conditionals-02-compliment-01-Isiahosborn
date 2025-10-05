@@ -11,9 +11,9 @@
 
 
 def main():
-    reply = input().strip()  # no prompt text
+    reply = input().strip()  
 
-    if reply.lower() in ("yes", "y"):
+    if reply == "yes":       
         print("You have wonderful eyes.")
     else:
         print("No compliment for you!")
