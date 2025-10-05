@@ -1,0 +1,68 @@
+# FILE NAME - compliment_01.py
+
+# NAME: Isiah Osborn
+# DATE:
+# BRIEF DESCRIPTION:
+#   Ask the user if they'd like a compliment. If they type exactly "yes",
+#   print a compliment. Then always say "Thank you for playing."
+
+########## ENTER YER CODE BELOW THIS LINE ##########
+
+def main():
+    reply = input("Would you like a compliment? ")
+    if reply == "yes":
+        print("You have wonderful eyes.")
+    print("Thank you for playing.")
+
+if __name__ == "__main__":
+    main()
+
+########### END YER CODE ABOVE THIS LINE ###########
+
+
+
+########################################
+#          SAMPLE OUTPUT
+########################################
+
+'''
+Would you like a compliment? yes
+You have wonderful eyes.
+Thank you for playing.
+'''
+
+
+'''
+Would you like a compliment? y
+Thank you for playing.
+'''
+
+
+'''
+Would you like a compliment? Yes
+Thank you for playing.
+'''
+
+
+'''
+Would you like a compliment? no
+Thank you for playing.
+'''
+
+
+########################################
+#          REFLECTION QUESTIONS
+########################################
+
+'''
+
+1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
+2/10
+
+2. What was the hardest part of this lab?
+Making sure the behavior matched the sample output exactly—only printing the compliment when the input is exactly "yes" (lowercase), and always printing "Thank you for playing." regardless of the answer. Also paying attention to the prompt text and spacing so the outputs line up.
+
+
+
+
+'''
